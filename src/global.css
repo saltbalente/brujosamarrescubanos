@@ -35,6 +35,60 @@ section.relative.min-h-screen.flex.items-center.justify-center.bg-gradient-to-b.
   display: inline-block;
 }
 
+/* Custom layout fixes and margins */
+.relative.z-10.text-center.px-4.max-w-5xl.mx-auto {
+  margin: 0 auto;
+}
+
+/* Global container margins and centering */
+.max-w-7xl, .max-w-6xl, .max-w-5xl, .max-w-4xl, .max-w-3xl {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Grid containers centering */
+.grid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Card and content spacing */
+.border-2, .border-4 {
+  margin-bottom: 1.5rem;
+}
+
+/* Text content margins */
+h1, h2, h3, h4 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.75rem;
+}
+
+/* Button spacing */
+a[class*="bg-"] {
+  margin: 0.5rem;
+}
+
+/* Image containers */
+.relative img, .w-80, .w-96 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer and testimonial cards */
+.col-span-1, .col-span-2 {
+  margin-bottom: 1rem;
+}
+
 /* Responsive design improvements */
 @media (max-width: 768px) {
   .text-5xl {
