@@ -88,7 +88,9 @@ p {
   margin: 1.5rem auto;
   padding: 1.5rem;
 }
-
+img.w-full.h-full.object-cover {
+    border-radius: 30px;
+}
 /* Botones y enlaces */
 a[class*="bg-"] {
   margin: 0.75rem auto;
@@ -145,7 +147,10 @@ a[class*="bg-"] {
     background: #ffe020;
     padding: 0px 20px 0px;
     color: #000000;
-}
+   }
+   h4.text-3xl.md\:text-4xl.mb-8.text-yellow-400.font-light {
+    margin-top: 1em;
+   }
   /* Espaciado móvil */
   section {
     margin-bottom: 2rem;
