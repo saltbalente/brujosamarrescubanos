@@ -27,7 +27,8 @@ export const RouterHead = component$(() => {
       {/* Performance hints */}
       <link rel="dns-prefetch" href="//fonts.googleapis.com" />
       <link rel="dns-prefetch" href="//fonts.gstatic.com" />
-      {/* Removed external API preconnect/dns-prefetch - using local images now */}
+      <link rel="preconnect" href="https://trae-api-us.mchost.guru" />
+      <link rel="dns-prefetch" href="//trae-api-us.mchost.guru" />
       
       {/* Google Tag Manager */}
       <script dangerouslySetInnerHTML={`
