@@ -97,7 +97,7 @@ export default component$(() => {
       specialty: "Santero Cubano Florentino del Amor",
       experience: "Más de 30 años",
       description: "Iniciado en el Palo Mayombe, Santería Cubana y Vudú Haitiano. Reconocido santero con más de 320 amarres exitosos al año.",
-      image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=realistic%20middle%20aged%20cuban%20santero%20man%20dark%20room%20red%20heart%20shaped%20candles%20spiritual%20altar%20beads%20necklaces%20authentic%20portrait%20dramatic%20lighting%20mystical%20atmosphere%20serious%20expression&image_size=square"
+      image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23800020'/%3E%3Ccircle cx='100' cy='80' r='30' fill='%23D4AF37'/%3E%3Crect x='70' y='120' width='60' height='40' fill='%238B4513'/%3E%3Ctext x='100' y='180' text-anchor='middle' fill='white' font-size='12'%3EFlorentino%3C/text%3E%3C/svg%3E"
     }
   ];
 
@@ -107,11 +107,27 @@ export default component$(() => {
       <section class="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-red-900 to-black">
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
         <div class="absolute inset-0 opacity-10">
-          <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=red%20white%20candles%20burning%20santeria%20altar%20beads%20necklaces%20elekes%20shells%20cowrie%20spiritual%20artifacts%20dark%20mystical%20background%20cuban%20religious%20items&image_size=landscape_16_9" alt="Fondo espiritual" class="w-full h-full object-cover" loading="lazy" width="1920" height="1080" />
+          <svg width="1920" height="1080" viewBox="0 0 1920 1080" class="w-full h-full object-cover">
+              <defs>
+                <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#2D1B69"/>
+                  <stop offset="100%" stop-color="#0F0F23"/>
+                </radialGradient>
+              </defs>
+              <rect width="1920" height="1080" fill="url(#bg)"/>
+              <circle cx="400" cy="300" r="8" fill="#FFD700" opacity="0.8"/>
+              <circle cx="800" cy="200" r="6" fill="#FF4500" opacity="0.9"/>
+              <circle cx="1200" cy="400" r="10" fill="#DC143C" opacity="0.7"/>
+              <circle cx="1600" cy="600" r="7" fill="#FFD700" opacity="0.8"/>
+            </svg>
         </div>
         {/* Imágenes religiosas flotantes */}
         <div class="absolute top-20 left-20 w-24 h-24 opacity-30">
-          <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=red%20heart%20shaped%20candles%20burning%20love%20spell%20romantic%20ritual%20dark%20background%20mystical%20atmosphere&image_size=square" alt="Veladoras de amor" class="w-full h-full object-cover rounded-full border-2 border-red-400" loading="lazy" width="96" height="96" />
+          <svg width="96" height="96" viewBox="0 0 96 96" class="w-full h-full object-cover rounded-full border-2 border-red-400">
+              <circle cx="48" cy="48" r="46" fill="#8B0000"/>
+              <path d="M48 20 C40 12, 28 12, 28 28 C28 44, 48 64, 48 64 S68 44, 68 28 C68 12, 56 12, 48 20 Z" fill="#FF6B6B"/>
+              <ellipse cx="48" cy="75" rx="8" ry="15" fill="#FFD700" opacity="0.8"/>
+            </svg>
         </div>
         <div class="absolute top-32 right-16 w-20 h-20 opacity-25">
           <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=santeria%20elekes%20beads%20necklaces%20colorful%20red%20white%20yellow%20blue%20spiritual%20jewelry%20cuban%20religious%20artifacts&image_size=square" alt="Collares de santería" class="w-full h-full object-cover rounded-full" loading="lazy" width="80" height="80" />
@@ -298,7 +314,14 @@ export default component$(() => {
       {/* Services Section */}
       <section class="py-24 px-4 bg-black relative">
         <div class="absolute inset-0 opacity-8">
-          <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=santeria%20altar%20multiple%20candles%20red%20white%20yellow%20burning%20spiritual%20offerings%20fruits%20flowers%20rum%20cigars%20cuban%20religious%20setup&image_size=landscape_16_9" alt="" class="w-full h-full object-cover" width="1920" height="1080" />
+          <svg width="1920" height="1080" viewBox="0 0 1920 1080" class="w-full h-full object-cover">
+              <rect width="1920" height="1080" fill="#1a1a2e"/>
+              <circle cx="300" cy="400" r="12" fill="#dc2626" opacity="0.8"/>
+              <circle cx="600" cy="300" r="10" fill="#fbbf24" opacity="0.9"/>
+              <circle cx="900" cy="500" r="14" fill="#f3f4f6" opacity="0.7"/>
+              <circle cx="1200" cy="350" r="11" fill="#dc2626" opacity="0.8"/>
+              <circle cx="1500" cy="450" r="13" fill="#fbbf24" opacity="0.9"/>
+            </svg>
         </div>
         {/* Imágenes religiosas en servicios - Optimizadas */}
         <div class="absolute top-16 left-1/4 w-32 h-32 opacity-25">

@@ -41,7 +41,7 @@ export const RouterHead = component$(() => {
       
       {/* Preload critical resources */}
       <link rel="preload" href="/favicon.svg" as="image" type="image/svg+xml" />
-      <link rel="preload" href="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=spiritual%20temple%20altar%20cuban%20santeria%20amuletos%20hechizos%20red%20white%20candles%20burning%20mystical%20atmosphere%20spiritual%20consultation%20free%20help%20dark%20room%20sacred%20space%20religious%20items%20offerings%20fruits%20flowers%20spiritual%20guidance&image_size=landscape_4_3" as="image" fetchPriority="high" />
+      {/* Preload optimizado removido para mejorar rendimiento */}
       
       {/* Critical CSS inline for faster LCP */}
       <style dangerouslySetInnerHTML={`
