@@ -150,7 +150,9 @@ a[class*="bg-"] {
    }
    h4.text-3xl.md\:text-4xl.mb-8.text-yellow-400.font-light {
     margin-top: 1em;
-   }
+   }h1.text-5xl.md\:text-7xl.font-light.mb-8.text-white.leading-tight {
+    letter-spacing: 4px;
+}
   /* Espaciado móvil */
   section {
     margin-bottom: 2rem;
