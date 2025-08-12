@@ -202,3 +202,17 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* ==============================================
+   ESTILOS PERSONALIZADOS ADICIONALES
+   ============================================== */
+
+/* Mostrar elementos con clase bg- como flex */
+a[class*=bg-] {
+  display: flex;
+}
+
+/* Ocultar elemento específico */
+.w-80.h-80.mx-auto.mb-8.overflow-hidden.border-4.border-yellow-400.rounded-lg {
+  display: none;
+}

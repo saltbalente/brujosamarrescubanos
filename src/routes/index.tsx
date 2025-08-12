@@ -216,9 +216,12 @@ export default component$(() => {
                 </div>
               </div>
             </div>
-            <h4 class="text-3xl md:text-4xl mb-12 text-yellow-400 font-light">
+            <h4 class="text-3xl md:text-4xl mb-8 text-yellow-400 font-light">
               HACEMOS LOS MEJORES AMARRES
             </h4>
+            <div class="mb-12 flex justify-center">
+              <img src="https://i.imgur.com/VQzQJ8L.jpeg" alt="Chat en WhatsApp - Pagas si ves resultados" class="max-w-md w-full h-auto rounded-lg border-2 border-yellow-400" width="400" height="300" />
+            </div>
           </div>
           
           <a href="https://wa.me/15708923111" class="bg-green-600 hover:bg-green-700 inline-flex items-center px-8 py-4 rounded-lg mb-12 text-white font-bold text-xl transition-all duration-300">
