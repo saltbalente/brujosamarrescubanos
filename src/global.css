@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Estilos para headings con fuente Eagle Lake */
+h1, h2, h3, h4, h5, h6,
+.heading-font {
+  font-family: 'Eagle Lake', cursive !important;
+  text-transform: uppercase !important;
+  font-weight: 400 !important;
+  font-display: swap;
+}
+
+/* Estilos para párrafos con fuente Libre Caslon Display */
+p, span, div:not(.heading-font) {
+  font-family: 'Libre Caslon Display', serif !important;
+  font-size: 1.125rem !important; /* text-lg */
+  text-transform: uppercase !important;
+  line-height: 1.6 !important;
+  font-display: swap;
+}
+
+/* Fallback para navegadores que no cargan las fuentes */
+@supports not (font-display: swap) {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Eagle Lake', Georgia, serif !important;
+  }
+  
+  p, span, div {
+    font-family: 'Libre Caslon Display', Georgia, serif !important;
+  }
+}
+
+/* Mobile layout fix - removes unwanted border and improves display */
+section.relative.min-h-screen.flex.items-center.justify-center.bg-gradient-to-b.from-red-900.to-black {
+  width: 100%;
+  display: inline-block;
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+  .text-5xl {
+    font-size: 2.5rem;
+  }
+  .text-7xl {
+    font-size: 3.5rem;
+  }
+  .text-4xl {
+    font-size: 2rem;
+  }
+  .text-6xl {
+    font-size: 3rem;
+  }
+}
