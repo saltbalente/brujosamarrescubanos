@@ -130,10 +130,10 @@ export default component$(() => {
             </svg>
         </div>
         <div class="absolute top-32 right-16 w-20 h-20 opacity-25">
-          <img src="/images/elekes-santeria.jpg" alt="Collares de santería" class="w-full h-full object-cover rounded-full" loading="lazy" width="80" height="80" />
+          <img src="images/elekes-santeria.jpg" alt="Collares de santería" class="w-full h-full object-cover rounded-full" loading="lazy" width="80" height="80" />
         </div>
         <div class="absolute bottom-24 left-16 w-28 h-28 opacity-20">
-          <img src="/images/caracolas.jpg" alt="Caracolas" class="w-full h-full object-cover rounded-lg" loading="lazy" width="112" height="112" />
+          <img src="images/caracolas.jpg" alt="Caracolas" class="w-full h-full object-cover rounded-lg" loading="lazy" width="112" height="112" />
         </div>
         {/* Símbolos Afrocubanos distribuidos */}
         <div class="absolute top-8 left-8 z-5">
@@ -168,7 +168,7 @@ export default component$(() => {
             <div class="mb-12 flex justify-center">
               <div class="relative w-96 h-80 rounded-lg overflow-hidden border-4 border-yellow-400 shadow-2xl">
                 <img 
-                  src="/images/altar-espiritual.jpg" 
+                  src="images/altar-espiritual.jpg" 
                   alt="Templo Espiritual - Amuletos y Hechizos" 
                   class="w-full h-full object-cover"
                   loading="eager"
@@ -193,7 +193,7 @@ export default component$(() => {
             <div class="mb-12 flex justify-center">
               <div class="relative">
                 <img 
-                  src="/images/oshun-estatua.jpg" 
+                  src="images/oshun-estatua.jpg" 
                   alt="Estatua de Oshun con veladoras amarillas" 
                   class="w-80 h-96 object-cover rounded-lg border-4 border-yellow-400 shadow-2xl"
                   loading="lazy"
@@ -203,16 +203,16 @@ export default component$(() => {
                 <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
                 {/* Veladoras amarillas alrededor */}
                 <div class="absolute -bottom-4 -left-4 w-12 h-16">
-                  <img src="/images/veladora-amarilla.jpg" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="48" height="64" />
+                  <img src="images/veladora-amarilla.jpg" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="48" height="64" />
                 </div>
                 <div class="absolute -bottom-4 -right-4 w-12 h-16">
-                    <img src="/images/veladora-amarilla.jpg" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="48" height="64" />
+                    <img src="images/veladora-amarilla.jpg" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="48" height="64" />
                 </div>
                 <div class="absolute -top-2 -left-6 w-10 h-14">
-                  <img src="/images/veladora-amarilla.jpg" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="40" height="56" />
+                  <img src="images/veladora-amarilla.jpg" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="40" height="56" />
                 </div>
                 <div class="absolute -top-2 -right-6 w-10 h-14">
-                    <img src="/images/veladora-amarilla.jpg" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="40" height="56" />
+                    <img src="images/veladora-amarilla.jpg" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="40" height="56" />
                 </div>
               </div>
             </div>
@@ -290,13 +290,13 @@ export default component$(() => {
               <div class="w-2 h-2 bg-red-500 rounded-full mx-1"></div>
             </div>
             <div class="mb-8 relative">
-              <img src="/images/altar-espiritual.jpg" alt="Altar Espiritual" width="256" height="256" class="w-64 h-64 mx-auto rounded-lg border-2 border-yellow-400" loading="lazy" />
+              <img src="images/altar-espiritual.jpg" alt="Altar Espiritual" width="256" height="256" class="w-64 h-64 mx-auto rounded-lg border-2 border-yellow-400" loading="lazy" />
               {/* Imágenes adicionales alrededor */}
               <div class="absolute -top-4 -left-4 w-16 h-16 opacity-40">
-                <img src="/images/velas-blancas.jpg" alt="Velas blancas" class="w-full h-full object-cover rounded-full" loading="lazy" width="64" height="64" />
+                <img src="images/velas-blancas.jpg" alt="Velas blancas" class="w-full h-full object-cover rounded-full" loading="lazy" width="64" height="64" />
               </div>
               <div class="absolute -top-4 -right-4 w-16 h-16 opacity-40">
-                <img src="/images/caldero-hierro.jpg" alt="Caldero de hierro" class="w-full h-full object-cover rounded-full" loading="lazy" width="64" height="64" />
+                <img src="images/caldero-hierro.jpg" alt="Caldero de hierro" class="w-full h-full object-cover rounded-full" loading="lazy" width="64" height="64" />
               </div>
             </div>
             <h3 class="text-3xl md:text-4xl font-light text-red-400 mb-4">
@@ -325,7 +325,7 @@ export default component$(() => {
         </div>
         {/* Imágenes religiosas en servicios - Optimizadas */}
         <div class="absolute top-16 left-1/4 w-32 h-32 opacity-25">
-          <img src="/images/hierbas-sagradas.jpg" alt="Hierbas sagradas" class="w-full h-full object-cover rounded-lg border border-yellow-400" width="128" height="128" />
+          <img src="images/hierbas-sagradas.jpg" alt="Hierbas sagradas" class="w-full h-full object-cover rounded-lg border border-yellow-400" width="128" height="128" />
         </div>
         {/* Símbolos Afrocubanos en servicios */}
         <div class="absolute top-12 left-12 z-5">
@@ -353,7 +353,7 @@ export default component$(() => {
             <div class="mb-12 flex justify-center">
               <div class="relative">
                 <img 
-                  src="/images/santa-muerte-roja.jpg" 
+                  src="images/santa-muerte-roja.jpg" 
                   alt="Estatua de Santa Muerte Roja con veladoras rojas" 
                   class="w-80 h-96 object-cover rounded-lg border-4 border-red-600 shadow-2xl"
                   width="320" height="384"
@@ -361,10 +361,10 @@ export default component$(() => {
                 <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
                 {/* Veladoras rojas alrededor - Optimizadas */}
                 <div class="absolute -bottom-4 -left-4 w-12 h-16">
-                  <img src="/images/veladora-roja.jpg" alt="Veladora roja" class="w-full h-full object-cover" width="48" height="64" />
+                  <img src="images/veladora-roja.jpg" alt="Veladora roja" class="w-full h-full object-cover" width="48" height="64" />
                 </div>
                 <div class="absolute -bottom-4 -right-4 w-12 h-16">
-                  <img src="/images/veladora-roja.jpg" alt="Veladora roja" class="w-full h-full object-cover" width="48" height="64" />
+                  <img src="images/veladora-roja.jpg" alt="Veladora roja" class="w-full h-full object-cover" width="48" height="64" />
                 </div>
               </div>
             </div>
@@ -391,11 +391,11 @@ export default component$(() => {
       {/* Santero Profile Section */}
       <section class="py-24 px-4 bg-gradient-to-b from-black to-red-900 border-t-4 border-yellow-400 relative">
         <div class="absolute inset-0 opacity-12">
-          <img src="/images/altar-velas-multiples.jpg" alt="" class="w-full h-full object-cover" width="1920" height="1080" />
+          <img src="images/altar-velas-multiples.jpg" alt="" class="w-full h-full object-cover" width="1920" height="1080" />
         </div>
         {/* Imágenes religiosas en perfil - Reutilizadas */}
         <div class="absolute top-24 left-12 w-36 h-36 opacity-20">
-          <img src="/images/flores-frescas.jpg" alt="Flores frescas" class="w-full h-full object-cover rounded-lg border border-blue-400" width="144" height="144" />
+          <img src="images/flores-frescas.jpg" alt="Flores frescas" class="w-full h-full object-cover rounded-lg border border-blue-400" width="144" height="144" />
         </div>
         {/* Símbolos Afrocubanos en perfil */}
         <div class="absolute top-16 left-8 z-5">
