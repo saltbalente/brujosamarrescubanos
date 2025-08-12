@@ -41,13 +41,54 @@ export const RouterHead = component$(() => {
       
       {/* Preload critical resources */}
       <link rel="preload" href="/favicon.svg" as="image" type="image/svg+xml" />
+      <link rel="preload" href="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=spiritual%20temple%20altar%20cuban%20santeria%20amuletos%20hechizos%20red%20white%20candles%20burning%20mystical%20atmosphere%20spiritual%20consultation%20free%20help%20dark%20room%20sacred%20space%20religious%20items%20offerings%20fruits%20flowers%20spiritual%20guidance&image_size=landscape_4_3" as="image" fetchPriority="high" />
       
-      {/* Preconnect and preload critical fonts */}
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      {/* Critical CSS inline for faster LCP */}
+      <style dangerouslySetInnerHTML={`
+        @font-face {
+          font-family: 'Eagle Lake';
+          font-style: normal;
+          font-weight: 400;
+          font-display: swap;
+          src: url(https://fonts.gstatic.com/s/eaglelake/v24/ptRMTiqbaqZn9NjFKnJeGOiVx1lPBNJX.woff2) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        @font-face {
+          font-family: 'Libre Caslon Display';
+          font-style: normal;
+          font-weight: 400;
+          font-display: swap;
+          src: url(https://fonts.gstatic.com/s/librecaslondisplay/v15/TuGOUUFzXI5FBtUq5a8bj6wRbzxTFMX40kFQRx0zjuDt.woff2) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        .font-eagle { font-family: 'Eagle Lake', cursive; }
+         .font-libre { font-family: 'Libre Caslon Display', serif; }
+         
+         /* Critical layout styles to prevent forced reflow */
+         body { margin: 0; padding: 0; }
+         * { box-sizing: border-box; }
+         img { max-width: 100%; height: auto; }
+         
+         /* Critical heading styles */
+         h1, h2, h3, h4, h5, h6 {
+           font-family: 'Eagle Lake', cursive;
+           text-transform: uppercase;
+           font-weight: 400;
+           margin: 0;
+         }
+         
+         /* Critical text styles */
+         p, span, div:not(.heading-font) {
+           font-family: 'Libre Caslon Display', serif;
+           font-size: 1.125rem;
+           text-transform: uppercase;
+           line-height: 1.6;
+           margin: 0;
+         }
+      `} />
+      
+      {/* Preconnect for faster font loading */}
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      <link rel="preload" href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Libre+Caslon+Display:wght@400&display=swap" as="style" />
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Libre+Caslon+Display:wght@400&display=swap" />
-      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Libre+Caslon+Display:wght@400&display=swap" /></noscript>
 
       {head.meta.map((m) => (
         <meta key={m.key} {...m} />
