@@ -141,7 +141,11 @@ a[class*="bg-"] {
   .text-6xl {
     font-size: 3rem;
   }
-  
+  span.text-xl.font-bold.text-yellow-400 {
+    background: #ffe020;
+    padding: 0px 20px 0px;
+    color: #000000;
+}
   /* Espaciado móvil */
   section {
     margin-bottom: 2rem;
