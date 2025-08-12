@@ -216,3 +216,47 @@ a[class*=bg-] {
 .w-80.h-80.mx-auto.mb-8.overflow-hidden.border-4.border-yellow-400.rounded-lg {
   display: none;
 }
+
+/* Estilos para imagen maestro con borde hermoso */
+.maestro-image-container {
+  position: relative;
+  display: inline-block;
+  max-width: 320px;
+  width: 100%;
+}
+
+.maestro-image-container::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  background: linear-gradient(45deg, #fbbf24, #ef4444, #fbbf24, #ef4444);
+  background-size: 400% 400%;
+  border-radius: 1rem;
+  z-index: -1;
+  animation: gradientShift 3s ease infinite;
+  filter: blur(8px);
+}
+
+.maestro-image-container img {
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s ease;
+}
+
+.maestro-image-container:hover img {
+  transform: scale(1.05);
+}
+
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
