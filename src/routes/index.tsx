@@ -156,7 +156,7 @@ export default component$(() => {
                   alt="Templo Espiritual - Amuletos y Hechizos" 
                   class="w-full h-full object-cover"
                   loading="eager"
-                  fetchpriority="high"
+                  fetchPriority="high"
                   width="384"
                   height="320"
                 />

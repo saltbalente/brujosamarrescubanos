@@ -46,7 +46,7 @@ export const RouterHead = component$(() => {
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       <link rel="preload" href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Libre+Caslon+Display:wght@400&display=swap" as="style" />
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Libre+Caslon+Display:wght@400&display=swap" media="print" onLoad="this.media='all'" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Libre+Caslon+Display:wght@400&display=swap" />
       <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Libre+Caslon+Display:wght@400&display=swap" /></noscript>
 
       {head.meta.map((m) => (
