@@ -130,10 +130,10 @@ export default component$(() => {
             </svg>
         </div>
         <div class="absolute top-32 right-16 w-20 h-20 opacity-25">
-          <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=santeria%20elekes%20beads%20necklaces%20colorful%20red%20white%20yellow%20blue%20spiritual%20jewelry%20cuban%20religious%20artifacts&image_size=square" alt="Collares de santería" class="w-full h-full object-cover rounded-full" loading="lazy" width="80" height="80" />
+          <img src="/images/elekes-santeria.jpg" alt="Collares de santería" class="w-full h-full object-cover rounded-full" loading="lazy" width="80" height="80" />
         </div>
         <div class="absolute bottom-24 left-16 w-28 h-28 opacity-20">
-          <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=cowrie%20shells%20caracolas%20divination%20santeria%20fortune%20telling%20spiritual%20tools%20dark%20mystical%20background&image_size=square" alt="Caracolas" class="w-full h-full object-cover rounded-lg" loading="lazy" width="112" height="112" />
+          <img src="/images/caracolas.jpg" alt="Caracolas" class="w-full h-full object-cover rounded-lg" loading="lazy" width="112" height="112" />
         </div>
         {/* Símbolos Afrocubanos distribuidos */}
         <div class="absolute top-8 left-8 z-5">
@@ -168,7 +168,7 @@ export default component$(() => {
             <div class="mb-12 flex justify-center">
               <div class="relative w-96 h-80 rounded-lg overflow-hidden border-4 border-yellow-400 shadow-2xl">
                 <img 
-                  src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=spiritual%20temple%20altar%20cuban%20santeria%20amuletos%20hechizos%20red%20white%20candles%20burning%20mystical%20atmosphere%20spiritual%20consultation%20free%20help%20dark%20room%20sacred%20space%20religious%20items%20offerings%20fruits%20flowers%20spiritual%20guidance&image_size=landscape_4_3" 
+                  src="/images/altar-espiritual.jpg" 
                   alt="Templo Espiritual - Amuletos y Hechizos" 
                   class="w-full h-full object-cover"
                   loading="eager"
@@ -193,7 +193,7 @@ export default component$(() => {
             <div class="mb-12 flex justify-center">
               <div class="relative">
                 <img 
-                  src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=beautiful%20realistic%20oshun%20statue%20golden%20goddess%20african%20cuban%20santeria%20orisha%20yellow%20candles%20burning%20around%20spiritual%20altar%20mystical%20atmosphere%20detailed%20sculpture%20divine%20feminine%20energy%20honey%20amber%20colors%20sacred%20space&image_size=portrait_4_3" 
+                  src="/images/oshun-estatua.jpg" 
                   alt="Estatua de Oshun con veladoras amarillas" 
                   class="w-80 h-96 object-cover rounded-lg border-4 border-yellow-400 shadow-2xl"
                   loading="lazy"
@@ -203,16 +203,16 @@ export default component$(() => {
                 <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
                 {/* Veladoras amarillas alrededor */}
                 <div class="absolute -bottom-4 -left-4 w-12 h-16">
-                  <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=yellow%20candle%20burning%20flame%20spiritual%20light%20oshun%20offering%20golden%20wax%20mystical%20energy&image_size=portrait_4_3" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="48" height="64" />
+                  <img src="/images/veladora-amarilla.jpg" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="48" height="64" />
                 </div>
                 <div class="absolute -bottom-4 -right-4 w-12 h-16">
-                  <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=yellow%20candle%20burning%20flame%20spiritual%20light%20oshun%20offering%20golden%20wax%20mystical%20energy&image_size=portrait_4_3" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="48" height="64" />
+                    <img src="/images/veladora-amarilla.jpg" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="48" height="64" />
                 </div>
                 <div class="absolute -top-2 -left-6 w-10 h-14">
-                  <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=yellow%20candle%20burning%20flame%20spiritual%20light%20oshun%20offering%20golden%20wax%20mystical%20energy&image_size=portrait_4_3" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="40" height="56" />
+                  <img src="/images/veladora-amarilla.jpg" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="40" height="56" />
                 </div>
                 <div class="absolute -top-2 -right-6 w-10 h-14">
-                  <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=yellow%20candle%20burning%20flame%20spiritual%20light%20oshun%20offering%20golden%20wax%20mystical%20energy&image_size=portrait_4_3" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="40" height="56" />
+                    <img src="/images/veladora-amarilla.jpg" alt="Veladora amarilla" class="w-full h-full object-cover" loading="lazy" width="40" height="56" />
                 </div>
               </div>
             </div>
@@ -290,13 +290,13 @@ export default component$(() => {
               <div class="w-2 h-2 bg-red-500 rounded-full mx-1"></div>
             </div>
             <div class="mb-8 relative">
-              <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=spiritual%20altar%20setup%20candles%20incense%20burning%20crystals%20herbs%20tarot%20cards%20mystical%20atmosphere%20dark%20room%20sacred%20space&image_size=square" alt="Altar Espiritual" width="256" height="256" class="w-64 h-64 mx-auto rounded-lg border-2 border-yellow-400" loading="lazy" />
+              <img src="/images/altar-espiritual.jpg" alt="Altar Espiritual" width="256" height="256" class="w-64 h-64 mx-auto rounded-lg border-2 border-yellow-400" loading="lazy" />
               {/* Imágenes adicionales alrededor */}
               <div class="absolute -top-4 -left-4 w-16 h-16 opacity-40">
-                <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=white%20candles%20burning%20spiritual%20cleansing%20purification%20ritual%20peaceful%20energy&image_size=square" alt="Velas blancas" class="w-full h-full object-cover rounded-full" loading="lazy" width="64" height="64" />
+                <img src="/images/velas-blancas.jpg" alt="Velas blancas" class="w-full h-full object-cover rounded-full" loading="lazy" width="64" height="64" />
               </div>
               <div class="absolute -top-4 -right-4 w-16 h-16 opacity-40">
-                <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=iron%20cauldron%20palo%20mayombe%20ritual%20pot%20spiritual%20work%20dark%20magic%20cuban%20religion&image_size=square" alt="Caldero de hierro" class="w-full h-full object-cover rounded-full" loading="lazy" width="64" height="64" />
+                <img src="/images/caldero-hierro.jpg" alt="Caldero de hierro" class="w-full h-full object-cover rounded-full" loading="lazy" width="64" height="64" />
               </div>
             </div>
             <h3 class="text-3xl md:text-4xl font-light text-red-400 mb-4">
@@ -325,7 +325,7 @@ export default component$(() => {
         </div>
         {/* Imágenes religiosas en servicios - Optimizadas */}
         <div class="absolute top-16 left-1/4 w-32 h-32 opacity-25">
-          <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=spiritual%20herbs%20plants%20dried%20leaves%20cuban%20santeria%20healing%20cleansing%20natural%20medicine%20mystical&image_size=square" alt="Hierbas sagradas" class="w-full h-full object-cover rounded-lg border border-yellow-400" width="128" height="128" />
+          <img src="/images/hierbas-sagradas.jpg" alt="Hierbas sagradas" class="w-full h-full object-cover rounded-lg border border-yellow-400" width="128" height="128" />
         </div>
         {/* Símbolos Afrocubanos en servicios */}
         <div class="absolute top-12 left-12 z-5">
@@ -353,7 +353,7 @@ export default component$(() => {
             <div class="mb-12 flex justify-center">
               <div class="relative">
                 <img 
-                  src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=beautiful%20realistic%20santa%20muerte%20statue%20red%20color%20death%20saint%20mexican%20spiritual%20figure%20red%20candles%20burning%20around%20mystical%20atmosphere%20detailed%20sculpture%20powerful%20energy%20sacred%20space%20dark%20background&image_size=portrait_4_3" 
+                  src="/images/santa-muerte-roja.jpg" 
                   alt="Estatua de Santa Muerte Roja con veladoras rojas" 
                   class="w-80 h-96 object-cover rounded-lg border-4 border-red-600 shadow-2xl"
                   width="320" height="384"
@@ -361,10 +361,10 @@ export default component$(() => {
                 <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
                 {/* Veladoras rojas alrededor - Optimizadas */}
                 <div class="absolute -bottom-4 -left-4 w-12 h-16">
-                  <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=red%20candle%20burning%20flame%20spiritual%20light%20santa%20muerte%20offering%20crimson%20wax%20mystical%20energy%20death%20saint&image_size=portrait_4_3" alt="Veladora roja" class="w-full h-full object-cover" width="48" height="64" />
+                  <img src="/images/veladora-roja.jpg" alt="Veladora roja" class="w-full h-full object-cover" width="48" height="64" />
                 </div>
                 <div class="absolute -bottom-4 -right-4 w-12 h-16">
-                  <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=red%20candle%20burning%20flame%20spiritual%20light%20santa%20muerte%20offering%20crimson%20wax%20mystical%20energy%20death%20saint&image_size=portrait_4_3" alt="Veladora roja" class="w-full h-full object-cover" width="48" height="64" />
+                  <img src="/images/veladora-roja.jpg" alt="Veladora roja" class="w-full h-full object-cover" width="48" height="64" />
                 </div>
               </div>
             </div>
@@ -391,11 +391,11 @@ export default component$(() => {
       {/* Santero Profile Section */}
       <section class="py-24 px-4 bg-gradient-to-b from-black to-red-900 border-t-4 border-yellow-400 relative">
         <div class="absolute inset-0 opacity-12">
-          <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=santeria%20altar%20multiple%20candles%20red%20white%20yellow%20burning%20spiritual%20offerings%20fruits%20flowers%20rum%20cigars%20cuban%20religious%20setup&image_size=landscape_16_9" alt="" class="w-full h-full object-cover" width="1920" height="1080" />
+          <img src="/images/altar-velas-multiples.jpg" alt="" class="w-full h-full object-cover" width="1920" height="1080" />
         </div>
         {/* Imágenes religiosas en perfil - Reutilizadas */}
         <div class="absolute top-24 left-12 w-36 h-36 opacity-20">
-          <img src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=fresh%20flowers%20white%20roses%20spiritual%20offering%20altar%20decoration%20santeria%20ritual%20pure%20energy&image_size=square" alt="Flores frescas" class="w-full h-full object-cover rounded-lg border border-blue-400" width="144" height="144" />
+          <img src="/images/flores-frescas.jpg" alt="Flores frescas" class="w-full h-full object-cover rounded-lg border border-blue-400" width="144" height="144" />
         </div>
         {/* Símbolos Afrocubanos en perfil */}
         <div class="absolute top-16 left-8 z-5">

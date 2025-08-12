@@ -1,8 +1,9 @@
 # TODO:
 
-- [x] analyze-images: Analizar todas las imágenes del sitio para identificar redundancias (priority: High)
-- [x] consolidate-candle-images: Consolidar múltiples imágenes de velas rojas en una sola URL reutilizable (priority: High)
-- [x] reuse-altar-images: Reutilizar imágenes de altares de santería similares (priority: High)
-- [x] optimize-background-images: Reducir fondos de sección similares y reutilizar los existentes (priority: Medium)
-- [x] remove-redundant-decorative: Eliminar imágenes decorativas redundantes que no aportan valor (priority: Medium)
-- [x] test-performance: Verificar que el sitio funcione correctamente después de la optimización (priority: Medium)
+- [x] download-veladora-amarilla: Descargar imagen de veladora amarilla de la API (priority: High)
+- [x] download-veladora-roja: Descargar imagen de veladora roja de la API (priority: High)
+- [x] download-altar-espiritual: Descargar imagen de altar espiritual de la API (priority: High)
+- [x] download-oshun-estatua: Descargar imagen de estatua de Oshún de la API (priority: High)
+- [x] download-elekes-santeria: Descargar imagen de collares de santería (elekes) de la API (priority: High)
+- [x] replace-svgs-with-images: Reemplazar todos los SVGs en index.tsx con las imágenes descargadas (priority: Medium)
+- [x] delete-svg-files: Eliminar los archivos SVG que creamos anteriormente (priority: Low)
